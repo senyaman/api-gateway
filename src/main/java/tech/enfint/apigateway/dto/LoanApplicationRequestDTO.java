@@ -1,4 +1,4 @@
-package com.enfint.dealservice.dto;
+package tech.enfint.apigateway.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
