@@ -16,7 +16,6 @@ import java.util.List;
 public class ApplicationServiceImpl implements ApplicationService {
 
     private final ApplicationClient applicationClient;
-
     @Override
     public List<LoanOfferDTO> loanApplication(LoanApplicationRequestDTO loanApplication) {
         return applicationClient.loanApplication(loanApplication).getBody();
